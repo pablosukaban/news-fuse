@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { ParamsType, ResponseType } from '../../types';
+import { ParamsType } from '../../types/newsApiTypes';
 
 const BASE_URL = 'http://api.mediastack.com/v1';
 const API_KEY = '7f15894ce975b36ae5fdbca3b58fe51f';

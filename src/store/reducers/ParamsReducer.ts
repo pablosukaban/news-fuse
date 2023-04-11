@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ls, ParamsType } from '../../types';
+import { ls, ParamsType } from '../../types/newsApiTypes';
 
 const initialState: ParamsType = {
     countries: 'us',
