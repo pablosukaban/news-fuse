@@ -1,4 +1,4 @@
-import { ResponseType } from './types';
+import { ResponseType } from './types/newsApiTypes';
 
 export const testData: ResponseType = {
     pagination: { limit: 25, offset: 0, count: 25, total: 10000 },
